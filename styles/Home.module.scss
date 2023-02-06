@@ -117,6 +117,7 @@ height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
     border-radius: 4444px;
     background-color: rgb(30, 235, 184, 0.2);
     position: relative;
@@ -125,6 +126,7 @@ height: 60px;
     .inner {
       display: flex;
       align-content: center;
+      cursor: pointer;
       justify-content: center;
       align-items: center;
       width: 121px;
@@ -138,6 +140,7 @@ height: 60px;
         font-style: normal;
         font-weight: 400;
         font-size: 28px;
+        cursor: pointer;
         line-height: 30px;
         color: #0A2263;
       }
@@ -970,12 +973,15 @@ input:-webkit-autofill:active{
       align-items: center;
       justify-content: center;
       border-radius: 4444px;
+      cursor: pointer;
+
       background-color: rgb(30, 235, 184, 0.2);
       position: relative;
 
       .inner {
         display: flex;
         align-content: center;
+        cursor: pointer;
         justify-content: center;
         align-items: center;
         width: 121px;
@@ -990,6 +996,7 @@ input:-webkit-autofill:active{
           font-weight: 400;
           font-size: 28px;
           line-height: 30px;
+          cursor: pointer;
           color: #0A2263;
         }
       }
