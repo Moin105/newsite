@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react'
 // import WebViewer from "@pdftron/webviewer";
 import styles from '../styles/Home.module.css'
 import Head from 'next/head';
-import Header from '../Components/Header/Header';
+import Header from '../Components/Header/header'
 // import Pdf from '../Components/Pdf';
 import dynamic from 'next/dynamic';
 // import { Splide, SplideSlide } from '@splidejs/react-splide';
