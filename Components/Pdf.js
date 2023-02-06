@@ -55,6 +55,8 @@ export default function Pdf() {
       ).then((instance)=>{
         instance.UI.setMinZoomLevel('100%') // or 
         instance.UI.setMinZoomLevel(1.5)
+        var FitMode = instance.UI.FitMode;
+        instance.UI.setFitMode(FitMode.FitWidth);
         instance.UI.getZoomStepFactors();
 
           const {docViewer} = instance
