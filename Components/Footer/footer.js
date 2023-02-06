@@ -81,7 +81,7 @@ function Footer() {
       //   setShow(false);
       // }, 3000);
     }
-    setResponse("Thank you")
+    setResponse("Thank you!")
   };
   return (
     <div className={styles.footer} id="contact">

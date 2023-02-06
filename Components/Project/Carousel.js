@@ -170,11 +170,11 @@ export default class NextJsCarousel extends Component {
                   
                   <div className={styles.boxtwo}>  
              <div className={styles.right}>
-                {/* <Image
-                   src={p1}
+                <Image
+                   src={child.image}
                    alt="banner"
                    fill   
-                /> */}
+                />
               </div>
               <div className={styles.left}>
                 <p className={styles.fp}>Featured Project</p>
