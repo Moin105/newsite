@@ -53,6 +53,10 @@ export default function Pdf() {
         },
         viewer.current,
       ).then((instance)=>{
+        instance.UI.setMinZoomLevel('100%') // or 
+        instance.UI.setMinZoomLevel(1.5)
+        instance.UI.getZoomStepFactors();
+
           const {docViewer} = instance
       })
     })
@@ -72,7 +76,7 @@ export default function Pdf() {
   return (
     <>
       <div className="main">
-        <div className={styles.pdf} ref={viewer} style={{height:"100vh",margin:"40px 0px 0px 0px"}}></div>
+        <div className={styles.pdf} ref={viewer} style={{height:"100vh",margin:"70px 0px 0px 0px"}}></div>
       {/* <FileViewer
         fileType={type}
         filePath={file}

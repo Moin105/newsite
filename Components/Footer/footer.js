@@ -92,7 +92,7 @@ Have an exciting project you need help with? Send me an email or<br></br> contac
    <div className={styles.out}  onClick={()=>{setShow(true)}}>
             <div className={styles.inner}>
                 <h3 className={styles.h3}>
-                Let’s<br></br>chat
+                Click<br></br>me!
                 </h3>
             </div>
           </div></>}
